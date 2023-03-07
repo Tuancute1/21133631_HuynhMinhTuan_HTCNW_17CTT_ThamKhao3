@@ -1,0 +1,221 @@
+*{
+    padding: 0px;
+    margin: 0px auto;
+}
+.wrapper{
+    width: 1100px;
+    min-height: 700px;
+    background-color: white;
+    border: 1px solid;
+
+}
+header{
+    height: 166px;
+    width: 100%;
+    background-color: rgb(42, 63, 160);
+    position: relative;
+}
+.top-menu li{
+    position: absolute;
+    height: 45px;
+    width: 120px;
+    background-color: rgb(128, 128, 238);
+    list-style: none;
+    border: 3px dotted red;
+    border-radius: 10px;
+    line-height: 45px;
+    text-indent: 10px;
+}
+.li{
+    text-decoration: none;
+}
+.top-menu li:first-child{
+    top: 100px;
+    left: 430px;
+    color: white;
+}
+.top-menu li:nth-child(2){
+    top: 100px;
+    left: 560px;
+    color: white;
+}
+.top-menu li:nth-child(3){
+    top: 100px;
+    left: 690px;
+    color: white;
+}
+.top-menu li:nth-child(4){
+    top: 100px;
+    left: 820px;
+    color: white;
+}
+.top-menu li:last-child{
+    top: 100px;
+    left: 950px;
+    color: white;
+}
+.top-menu li:hover{
+    background-color: blue;
+}
+.h1{
+    position: absolute;
+    left: 150px;
+    top: 30px;
+    color: white;
+}
+.p1{
+    position: absolute;
+    left: 150px;
+    top: 70px;
+    color: white;
+}
+.frm{
+    position: absolute;
+    left: 850px;
+    top: 20px;
+}
+nav{
+    position: relative;
+    width: 100%;
+    height: 500px;
+}
+.n1{
+    position: absolute;
+    height: 30px;
+    width: 50%;
+    margin-left: 10px;
+    top: 40px;
+}
+.n2{
+    position: absolute;
+    height: 60px;
+    margin-right: 700px;
+    top: 100px;
+    left: 10px;
+    text-decoration: blink;
+    text-align: justify;
+    color: red;
+    text-shadow: 10px 5px 8px rgb(255, 255, 0);
+}
+.dot1{
+    position: absolute;
+    top: 70px;
+}
+.name{
+    position: absolute;
+    height: 310px;
+    top: 200px;
+    left: 10px;
+}
+.email{
+    position: absolute;
+    height: 310px;
+    top: 200px;
+    left: 200px;
+}
+.tele{
+    position: absolute;
+    height: 310px;
+    top: 250px;
+    left: 10px;
+}
+.sub{
+    position: absolute;
+    height: 310px;
+    top: 250px;
+    left: 200px;
+}
+.mess{
+    position: absolute;
+    height: 310px;
+    top: 300px;
+    left: 10px;
+}
+.submit{
+    position: absolute;
+    height: 310px;
+    top: 410px;
+    left: 10px;
+}
+.reset{
+    position: absolute;
+    height: 310px;
+    top: 410px;
+    left: 60px;
+}
+.n4{
+    position: absolute;
+    top: 100px;
+    left: 450px;
+}
+.dot2{
+    position: absolute;
+    top: 130px;
+    left: 450px;
+}
+.n5{
+    position: absolute;
+    top: 160px;
+    left: 450px;
+}
+.n6{
+    position: absolute;
+    top: 280px;
+    left: 450px;
+}
+.n7{
+    position: absolute;
+    top: 350px;
+    left: 450px;
+}
+.n8{
+    position: relative;
+    position: absolute;
+    height: 370px;
+    width: 320px;
+    top: 40px;
+    left: 750px;
+    background-color: rgb(233, 187, 187);
+}
+.n9{
+    position: absolute;
+    left: 5px;
+    top: 10px;
+}
+.img{
+    position: absolute;
+    top: 60px;
+}
+.n10{
+    position: absolute;
+    top: 30px;
+    left: 5px;
+}
+.n11{
+    position: absolute;
+    top: 200px;
+}
+.n12{
+    position: absolute;
+    left: 200px;
+    top: 300px;
+    color: blue;
+}
+footer{
+    position: relative;
+    width: 100%;
+    height: 40px;
+    background-color: rgb(99, 22, 243);
+}
+.f1{
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    color: white;
+}
+.f2{
+    position: absolute;
+    top: 10px;
+    left: 295px;
+    color: rgb(179, 179, 241);
+}
