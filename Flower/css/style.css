@@ -12,7 +12,7 @@
 header{
     height: 166px;
     width: 100%;
-    background-color: rgb(42, 63, 160);
+    background-color: #294e7a;
     position: relative;
 }
 .top-menu li{
@@ -21,38 +21,43 @@ header{
     width: 120px;
     background-color: rgb(128, 128, 238);
     list-style: none;
-    border: 3px dotted red;
-    border-radius: 10px;
-    line-height: 45px;
-    text-indent: 10px;
+    border: none;
+    border-radius: 20px;
+    line-height: 50px;
+    text-indent: -5px;
 }
 .li{
     text-decoration: none;
 }
 .top-menu li:first-child{
-    top: 100px;
-    left: 430px;
+    bottom: 0px;
+    right: 500px;
     color: white;
+    text-align: center;
 }
 .top-menu li:nth-child(2){
-    top: 100px;
-    left: 560px;
+    bottom: 0px;
+    right: 375px;
     color: white;
+    text-align: center;
 }
 .top-menu li:nth-child(3){
-    top: 100px;
-    left: 690px;
+    bottom: 0px;
+    right: 250px;
     color: white;
+    text-align: center;
 }
 .top-menu li:nth-child(4){
-    top: 100px;
-    left: 820px;
+    bottom: 0px;
+    right:125px;
     color: white;
+    text-align: center;
 }
 .top-menu li:last-child{
-    top: 100px;
-    left: 950px;
+    bottom: 0px;
+    text-align: center;
     color: white;
+    right: 0px;
 }
 .top-menu li:hover{
     background-color: blue;
@@ -95,7 +100,7 @@ nav{
     text-decoration: blink;
     text-align: justify;
     color: red;
-    text-shadow: 10px 5px 8px rgb(255, 255, 0);
+    text-shadow: 3px 5px 15px rgb(255, 255, 0);
 }
 .dot1{
     position: absolute;
@@ -194,6 +199,7 @@ nav{
 .n11{
     position: absolute;
     top: 200px;
+    left: 5px;
 }
 .n12{
     position: absolute;
@@ -218,4 +224,27 @@ footer{
     top: 10px;
     left: 295px;
     color: rgb(179, 179, 241);
+}
+li:hover>a{
+    color: yellow;
+    font-style: italic;
+    font-weight: bolder;
+}
+.top-menu li .sub-menu li{
+    display: none;
+    position: absolute;
+}
+.top-menu li:hover .sub-menu li:nth-child(1){
+    display: block;
+    width: 200px;
+    z-index: 2;
+    top: 45px;
+    left: -40px;
+}
+.top-menu li:hover .sub-menu li:nth-child(2){
+    display: block;
+    width: 200px;
+    z-index: 2;
+    top: 90px;
+    left: -40px;
 }
